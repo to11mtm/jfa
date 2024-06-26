@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <LangVersion>9</LangVersion>
+        <RootNamespace>Akka.Remote.Transporrt.WS</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Akka.Remote" Version="1.5.14" />
+    </ItemGroup>
+
+</Project>

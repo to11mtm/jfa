@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TargetFrameworks>net7.0;net6.0;net8.0</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Akka.Streams" Version="1.5.14" />
+      <PackageReference Include="LanguageExt.Core" Version="4.4.7" />
+      <PackageReference Include="MessagePack" Version="2.5.140" />
+      <PackageReference Include="NATS.Client.JetStream" Version="2.2.1" />
+      <PackageReference Include="NATS.Client.KeyValueStore" Version="2.0.3" />
+    </ItemGroup>
+
+</Project>

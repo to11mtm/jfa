@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>GlutenFree.Akka.Streams.nats_net_v2</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Akka.Streams" Version="1.5.14" />
+      <PackageReference Include="NATS.Client.Core" Version="2.0.3" />
+      <PackageReference Include="ValueTaskSupplement" Version="1.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\NATSWrappers\NATSWrappers.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="wat.cs" />
+    </ItemGroup>
+
+</Project>
